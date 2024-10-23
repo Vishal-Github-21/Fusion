@@ -32,7 +32,7 @@ urlpatterns = [
     url(r'^user-details/', views.get_user_details, name='get_user_details'),  #
     url(r'^get-booking-details/(?P<booking_id>\d+)/$', views.get_booking_details, name='get_booking_details'),  #
     url(r'^forward-booking-new/$', views.forward_booking_new, name='forward_booking_new'),
-    url(r'^confirm-booking-new/$', views.confirm_booking_new, name='confirm_booking_new'),  #
+     url(r'^confirm-booking-new/$', views.confirm_booking_new, name='confirm_booking_new'),  #
 
     url(r'^inventory/$', views.get_inventory_items, name='get_inventory_items'),
     url(r'^inventory/(?P<pk>\d+)/$', views.get_inventory_item, name='get_inventory_item'),
